@@ -7,21 +7,50 @@
     font-family: suisse-works;
     src: url(works/SuisseWorks-Regular.otf);
   }
-
+  
+  @font-face {
+    font-family: suisse-intl-medium;
+    src: url(intl/SuisseIntl-Medium.otf);
+  }
 
 
 
 body {
-    margin-left: 1.4vw;
-    margin-right: 1.4vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
     font-family: suisse-intl;
     font-size: 14px;
+
 }
 
 p {
     font-family: suisse-intl;
     font-size: 14px;
 }
+
+.p-medium {
+    font-family: suisse-intl-medium;
+
+}
+
+.titolo-progetto {
+    font-family: suisse-works;
+    font-size: 42px;
+    line-height: 0.9;
+  
+}
+
+.sottotitolo-progetto {
+
+ padding-bottom: 30px;
+}
+
+.info-progetto{
+    padding-bottom: 130px;
+}
+
+
+
 
 h1 {
     font-family: suisse-works;
@@ -90,7 +119,7 @@ padding: 0;
 
 .video_homepage {
  height: 92vh;
- width: 97.5vw;
+ width: 96.2vw;
     top: 6vh;
     align-items: center;
 z-index: 3;
@@ -109,6 +138,21 @@ z-index: 3;
 
 
 
+   
+   .media1 {
+       height: 87vh;
+       width: 100%;
+       object-fit: cover;
+       z-index: 1;
+       border-radius: 10px;
+   }
+   
+
+.colonna-testo{
+    overflow: auto;
+    display: block;
+    height: 100vh;
+}
 
 
 .card {
@@ -147,8 +191,26 @@ z-index: 3;
 
 ul{
     list-style-type: none;
+    padding: 0;
 }
 
 .footer-totale {
     margin-top: 70px;
 }
+
+.nome-footer{
+    border: 1px solid black;
+}
+
+.contact-footer{
+    border: 1px solid black;
+}
+
+.list-footer{
+    border: 1px solid black;
+}
+
+
+
+
+
