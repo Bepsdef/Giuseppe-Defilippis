@@ -14,7 +14,8 @@
 body {
     margin-left: 1.4vw;
     margin-right: 1.4vw;
-  
+    font-family: suisse-intl;
+    font-size: 14px;
 }
 
 p {
@@ -62,7 +63,7 @@ padding: 0;
     font-family: 'Material Icons';
     font-weight: normal;
     font-style: normal;
-    font-size: 12px;  /* Preferred icon size */
+    font-size: 10px;  /* Preferred icon size */
     display: inline-block;
     line-height: 1;
     text-transform: none;
@@ -70,7 +71,7 @@ padding: 0;
     word-wrap: normal;
     white-space: nowrap;
     direction: ltr;
-    vertical-align: middle;
+
 
   
     /* Support for all WebKit browsers. */
@@ -89,7 +90,7 @@ padding: 0;
 
 .video_homepage {
  height: 92vh;
- width: 97.1vw;
+ width: 97.5vw;
     top: 6vh;
     align-items: center;
 z-index: 3;
@@ -112,6 +113,7 @@ z-index: 3;
 
 .card {
     min-height: 20px;
+    border: 0px;
    
 }
 
@@ -132,3 +134,21 @@ z-index: 3;
 
 
 
+.card img {
+    width: 100%;
+    transition: 0.25s all ease-in-out;
+}
+
+.card:hover img {
+    transform: scale(1.03);
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+.footer-totale {
+    margin-top: 70px;
+}
