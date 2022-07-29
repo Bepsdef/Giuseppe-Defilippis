@@ -1,0 +1,134 @@
+@font-face {
+    font-family: suisse-intl;
+    src: url(intl/SuisseIntl-Regular.otf);
+  }
+
+  @font-face {
+    font-family: suisse-works;
+    src: url(works/SuisseWorks-Regular.otf);
+  }
+
+
+
+
+body {
+    margin-left: 1.4vw;
+    margin-right: 1.4vw;
+  
+}
+
+p {
+    font-family: suisse-intl;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: suisse-works;
+    font-size: 24px;
+}
+
+a {
+    font-family: suisse-intl;
+    font-size: 14px;
+    color: black;
+}
+
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
+
+
+
+.year-number {
+    font-family: suisse-intl;
+    font-size: 14px;
+
+}
+
+.container-fluid{
+padding: 0;
+    margin-top: 40px;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 12px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    vertical-align: middle;
+
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+
+
+.video_homepage {
+ height: 92vh;
+ width: 97.1vw;
+    top: 6vh;
+    align-items: center;
+z-index: 3;
+
+
+
+}
+
+.video_1 {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+
+
+
+
+.card {
+    min-height: 20px;
+   
+}
+
+.card-body {
+    padding: 2px;
+}
+
+.card-footer {
+    background: none;
+    border-top: none;
+    padding: 2px;
+}
+
+.column {
+    width: 25%;
+    background-color: aqua;
+}
+
+
+
