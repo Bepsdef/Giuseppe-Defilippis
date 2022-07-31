@@ -13,6 +13,23 @@
     src: url(intl/SuisseIntl-Medium.otf);
   }
 
+html{
+    scroll-behavior: smooth;
+    /* cursor: none; */
+}
+
+
+#circularcursor {
+    background-color: red;
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    position: absolute;
+    z-index: 1;
+  }
+
 
 
 body {
@@ -20,6 +37,8 @@ body {
     margin-right: 2vw;
     font-family: suisse-intl;
     font-size: 14px;
+    background-color: #f7f7f7;
+    
 
 }
 
@@ -33,15 +52,29 @@ p {
 
 }
 
+.presentation-text {
+
+ margin-top: 50px;
+    margin-bottom: 200px;
+}
+
+.text-attribute{
+    font-family: suisse-intl;
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+
 .titolo-progetto {
-    font-family: suisse-works;
+    font-family: suisse-intl;
     font-size: 42px;
     line-height: 0.9;
   
 }
 
 .sottotitolo-progetto {
-
+    font-family: suisse-intl;
+    font-size: 18px;
  padding-bottom: 30px;
 }
 
@@ -49,11 +82,13 @@ p {
     padding-bottom: 130px;
 }
 
-
+.line-height-infoprogetto {
+    line-height: 1.3;
+}
 
 
 h1 {
-    font-family: suisse-works;
+    font-family: suisse-intl;
     font-size: 24px;
 }
 
@@ -118,9 +153,9 @@ padding: 0;
 
 
 .video_homepage {
- height: 92vh;
+ height: 90vh;
  width: 96.2vw;
-    top: 6vh;
+    top: 10vh;
     align-items: center;
 z-index: 3;
 
@@ -140,7 +175,7 @@ z-index: 3;
 
    
    .media1 {
-       height: 87vh;
+       height: 86vh;
        width: 100%;
        object-fit: cover;
        z-index: 1;
@@ -184,7 +219,7 @@ z-index: 3;
 }
 
 .card:hover img {
-    transform: scale(1.03);
+    transform: scale(1.02);
 }
 
 
@@ -195,7 +230,8 @@ ul{
 }
 
 .footer-totale {
-    margin-top: 70px;
+    margin-top: 150px;
+
 
 }
 
