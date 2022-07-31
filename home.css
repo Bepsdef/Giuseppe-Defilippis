@@ -1,0 +1,549 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  src: url('../Sito_Portfolio/fonts/PPEditorialNew-Ultralight.otf');
+  font-family: PPEditorialNew-Ultralight;
+}
+
+@font-face {
+  src: url('../Sito_Portfolio/fonts/PPEditorialNew-UltralightItalic.otf');
+  font-family: PPEditorialNew-UltralightItalic;
+}
+
+@font-face {
+  src: url('../Sito_Portfolio/fonts/PPEditorialNew-Regular.otf');
+  font-family: PPEditorialNew-Regular;
+}
+
+@font-face {
+  src: url('../Sito_Portfolio/fonts/PPEditorialNew-Italic.otf');
+  font-family: PPEditorialNew-Italic;
+}
+
+@font-face {
+  src: url('../Sito_Portfolio/fonts/IBMPlexMono-Regular.ttf');
+  font-family: IBMPlexMono-Regular;
+}
+
+
+/* this is the header */
+
+.header {
+  width: 100%;
+  height: 85px;
+  display: block;
+  background-color: #ffffff;
+  top: 0px;
+  position: fixed;
+}
+
+.inner_header {
+  width: 97%;
+  height: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container a {
+  display: table-cell;
+  vertical-align: bottom;
+  height: 100%;
+  font-family: PPEditorialNew-Ultralight;
+  font-size: 40px;
+}
+
+.navigation {
+  height: 100%;
+  display: table;
+  float: right;
+}
+
+.navigation a {
+  display: table-cell;
+  vertical-align: bottom;
+  height: 100%;
+  font-family: PPEditorialNew-Ultralight;
+  font-size: 40px;
+}
+
+/* this is the footer */
+
+.footer {
+  width: 100%;
+  height: 85px;
+  display: block;
+  background-color: #ffffff;
+}
+
+.inner_footer {
+  width: 97%;
+  height: 80%;
+  display: block;
+  margin: 0 auto;
+}
+
+.copyright {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.copyright a {
+  display: table-cell;
+  vertical-align: bottom;
+  height: 100%;
+  font-family: PPEditorialNew-Ultralight;
+  font-size: 25px;
+}
+
+.social {
+  height: 100%;
+  display: table;
+  float: right;
+  padding-top: 35px;
+}
+
+.social a {
+  display: table-cell;
+  vertical-align: bottom;
+  height: 100%;
+  font-family: PPEditorialNew-Ultralight;
+  font-size: 25px;
+}
+
+li {
+  display: inline-block;
+  margin-right: 9px;
+}
+
+/* this is for the links */
+
+a:link {
+  color: black;
+  text-decoration: none;
+  vertical-align: bottom;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* this is for the SVG links */
+
+svg |a:link {
+  color: black;
+  text-decoration: none;
+  vertical-align: bottom;
+}
+
+svg |a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+svg |a:hover {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* this is the body - per tutte le pagine */
+
+.my-container {
+  width: 98%;
+  margin-top: 22px;
+}
+
+.my-row {
+  width: 100%;
+  padding: 0;
+}
+
+.g-0 {
+  margin-right: 0px;
+}
+
+.col-md-7 {
+  padding-left: 20px;
+}
+
+/* this is the font info */
+/* testi piccoli */
+p {
+  font-family: IBMPlexMono-Regular;
+  display: inline-block;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+/* titoli */
+p1 {
+  font-family: PPEditorialNew-Ultralight;
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+
+/* editorial BLU - about */
+span {
+  font-family: PPEditorialNew-UltralightItalic;
+  font-size: 36px;
+  line-height: 46px;
+  color: blue;
+  margin-bottom: 0px;
+}
+
+/* titoli piccoli */
+p2 {
+  font-family: PPEditorialNew-Ultralight;
+  font-size: 25px;
+  display: inline-block;
+}
+
+/* this is the sticky top */
+
+.sticky-md-top {
+  top: 100px;
+}
+
+.sticky-sx-top {
+  top: 100px;
+}
+
+/* this is the plug in */
+
+#myBtn {
+  color: blue;
+}
+
+button {
+  background-color: transparent;
+  border: white;
+}
+
+.tippy-tooltip.sitoportfolio-theme {
+  font-family: IBMPlexMono;
+}
+
+/* this is the about page */
+
+.about-page {
+  margin-top: 96px;
+}
+
+.cv p1 {
+  padding-right: 60px;
+}
+
+.bio p {
+  padding-right: 40px;
+}
+
+/* this is the home-landing page */
+
+.landing_page {
+  padding: 10px;
+  padding-top: 120px;
+  height: 795px;
+  background-color: white;
+}
+
+.landing_page p {
+  font-size: 22px;
+}
+
+.dragme {
+  position: relative;
+  width: 252px;
+  height: 252px;
+  cursor: move;
+}
+
+#scritta {
+  color: blue;
+  width: 116px;
+  height: 20px;
+}
+
+/* this is the small row - numero e data progetto */
+
+.small-row {
+  height: 40px;
+  width: 100%;
+}
+
+.data-right {
+  float: right;
+  margin-right: 0px;
+}
+
+.nome-progetto a {
+  font-family: PPEditorialNew-Ultralight;
+  font-size: 36px;
+}
+
+/* this is the project page */
+
+.next-project {
+  display: table;
+  padding-top: 20px;
+}
+
+.next-project a {
+  height: 100%;
+  font-family: IBMPlexMono-Regular;
+  font-size: 15px;
+  text-decoration: none;
+  float: right;
+}
+
+.row-photo {
+  margin-top: 0px;
+  width: 100%;
+  float: right;
+  margin-bottom: 18px;
+}
+
+.descrizione {
+  padding-right: 180px;
+  padding-left: 20px;
+}
+
+.container-md-5 {
+  width: 42%;
+  margin-top: 22px;
+}
+
+.container-md-7 {
+  width: 58%;
+  margin-top: 22px;
+  height: auto;
+}
+
+/* this is the media query */
+
+@media only screen and (max-width: 991px) {
+
+  /* landing page */
+  .dragme {
+    position: relative;
+    width: 202px;
+    height: 202px;
+    cursor: move;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  /* landing page */
+  .dragme {
+    position: relative;
+    width: 152px;
+    height: 152px;
+    cursor: move;
+  }
+
+  /* next project sparisce appare SVG */
+  .next-project svg {
+    float: right;
+    vertical-align: middle;
+  }
+
+  .nascondi {
+    display: none;
+  }
+
+  .order {
+    width: 100%;
+    order: -1;
+  }
+
+  /* titoli rimpiccioliscono */
+  p1 {
+    font-size: 34px;
+  }
+
+  .container-md-5 {
+    width: 100%;
+  }
+
+  .container-md-7 {
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  .col-md-7 {
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+
+  .row a {
+    font-size: 34px;
+  }
+
+  .small-row {
+    height: 39px;
+    width: 100%;
+  }
+
+  .row-photo {
+    margin-top: 5px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+
+  }
+
+  .descrizione {
+    padding-right: 20px;
+  }
+
+  /* header */
+  .logo_container a {
+    font-size: 38px;
+  }
+
+  .navigation a {
+    font-size: 38px;
+  }
+
+  .inner_header {
+    width: 96%;
+  }
+
+  .copyright a {
+    font-size: 20px;
+  }
+
+  /* footer */
+  .social a {
+    font-size: 20px;
+  }
+
+  .social {
+    padding-top: 42px;
+  }
+
+  .inner_footer {
+    width: 96%;
+  }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+  /* header */
+  .inner_header {
+    width: 95%;
+  }
+
+  /* footer */
+  .inner_footer {
+    width: 95%;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  /* landing page */
+  .dragme {
+    position: relative;
+    width: 102px;
+    height: 102px;
+    cursor: move;
+  }
+
+  /* footer */
+  .inner_footer {
+    width: 93%;
+  }
+
+  .copyright a {
+    font-size: 18px;
+  }
+
+  .social a {
+    font-size: 18px;
+  }
+
+  .social {
+    padding-top: 45px;
+  }
+
+}
+
+@media only screen and (max-width: 280px) {
+
+  /* titoli piccoli rimpiccioliscono */
+  p2 {
+    font-size: 22px;
+  }
+
+  /* header */
+  .inner_header {
+    width: 92%;
+  }
+
+  .logo_container a {
+    font-size: 36px;
+  }
+
+  .navigation a {
+    font-size: 36px;
+  }
+
+  /* footer */
+  .inner_footer {
+    width: 94%;
+  }
+
+  .copyright a {
+    font-size: 16px;
+  }
+
+  .social a {
+    font-size: 16px;
+  }
+
+  .social {
+    padding-top: 47px;
+  }
+
+}

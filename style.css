@@ -13,11 +13,11 @@
     src: url(intl/SuisseIntl-Medium.otf);
   }
 
+
 html{
     scroll-behavior: smooth;
     /* cursor: none; */
 }
-
 
 #circularcursor {
     background-color: red;
@@ -38,6 +38,7 @@ body {
     font-family: suisse-intl;
     font-size: 14px;
     background-color: #f7f7f7;
+  overflow-x: hidden;
     
 
 }
@@ -53,7 +54,6 @@ p {
 }
 
 .presentation-text {
-
  margin-top: 50px;
     margin-bottom: 200px;
 }
@@ -64,12 +64,10 @@ p {
     line-height: 1.2;
 }
 
-
 .titolo-progetto {
     font-family: suisse-intl;
     font-size: 42px;
-    line-height: 0.9;
-  
+    line-height: 0.9; 
 }
 
 .sottotitolo-progetto {
@@ -97,6 +95,11 @@ a {
     font-size: 14px;
     color: black;
 }
+
+img {
+    border-radius: 6px;
+}
+
 
 
 a:link { text-decoration: none; }
@@ -153,13 +156,11 @@ padding: 0;
 
 
 .video_homepage {
- height: 90vh;
- width: 96.2vw;
-    top: 10vh;
+ height: 96vh;
+ width: 96vw;
+   padding-top: 70px;
     align-items: center;
 z-index: 3;
-
-
 
 }
 
@@ -172,23 +173,7 @@ z-index: 3;
 }
 
 
-
-   
-   .media1 {
-       height: 86vh;
-       width: 100%;
-       object-fit: cover;
-       z-index: 1;
-       border-radius: 10px;
-   }
-   
-
-.colonna-testo{
-    overflow: auto;
-    display: block;
-    height: 100vh;
-}
-
+/* --------css card index--------*/
 
 .card {
     min-height: 20px;
@@ -212,7 +197,6 @@ z-index: 3;
 }
 
 
-
 .card img {
     width: 100%;
     transition: 0.25s all ease-in-out;
@@ -222,6 +206,9 @@ z-index: 3;
     transform: scale(1.02);
 }
 
+
+
+/* -------- footer--------*/
 
 
 ul{
@@ -234,8 +221,6 @@ ul{
 
 
 }
-
-
 
 
 /* media query per footer */
@@ -254,12 +239,12 @@ ul{
 
 
 
-
-/* Small devices (tablets, 768px and up) */
+/* MEDIA QUERY PER FOOTER ||||||||||| Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .text-justify-sm {
         justify-content: left;
     }
+  
 }
 
 @media (min-width: 768px) {
@@ -285,6 +270,19 @@ ul{
 
 
 
+.navbar {
+    background-color: #f7f7f7;
+    padding-right: 2vw;
+    padding-left: 2vw;
+}
+
+/* --------PROGETTI PAGINA--------*/
+
+.sticky-md-top{
+    top: 80px;
+}
 
 
-
+.container-project {
+    margin-top: 60px;
+}
