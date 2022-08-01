@@ -213,13 +213,17 @@ z-index: 3;
 
 ul{
     list-style-type: none;
-    padding: 0;
+    
+
 }
 
 .footer-totale {
     margin-top: 150px;
+    padding: 0;
+}
 
-
+.list-footer {
+    padding-left: 0px;
 }
 
 
@@ -265,6 +269,22 @@ ul{
         padding-right: 8px;
       
     }
+
+}
+
+@media (min-width: 768px) {
+    .paddingl-8 {
+        padding-left: 8px;
+        
+    }
+    
+}
+@media (min-width: 768px) {
+    .paddingr-8 {
+        padding-right: 8px;
+        
+    }
+    
 }
 
 
@@ -285,4 +305,11 @@ ul{
 
 .container-project {
     margin-top: 60px;
+}
+
+@media (min-width: 768px) {
+    .text-justify-sm {
+        justify-content: left;
+    }
+  
 }
