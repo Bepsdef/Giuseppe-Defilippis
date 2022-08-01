@@ -38,6 +38,7 @@ body {
     margin-right: 2vw;
     font-family: suisse-intl;
     font-size: 14px;
+    color: black;
     background-color: #f7f7f7;
   overflow-x: hidden;
     
@@ -61,7 +62,7 @@ p {
 
 .text-attribute{
     font-family: suisse-intl;
-    font-size: 42px;
+    font-size: 32px;
     line-height: 1.2;
 }
 
@@ -74,16 +75,18 @@ p {
 .sottotitolo-progetto {
     font-family: suisse-intl;
     font-size: 18px;
- padding-bottom: 30px;
+ padding-bottom: 40px;
 }
 
 .info-progetto{
-    padding-bottom: 130px;
+   margin-bottom: 6vw;
+
 }
 
 .line-height-infoprogetto {
     line-height: 1.3;
 }
+
 
 
 h1 {
@@ -170,6 +173,10 @@ z-index: 3;
     width: 100%;
     object-fit: cover;
     z-index: 1;
+    
+}
+
+video {
     border-radius: 10px;
 }
 
@@ -223,9 +230,7 @@ padding-left: 0px;
     padding: 0;
 }
 
-.list-footer {
-    padding-left: 0px;
-}
+
 
 
 /* media query per footer */
@@ -287,6 +292,20 @@ padding-left: 0px;
     }
     
 }
+
+@media (min-width: 768px) {
+    .concept {
+        margin-bottom: 30px;
+        
+    }
+    
+}
+
+
+
+
+
+
 
 .container-info {
     padding-left: 2vw;
