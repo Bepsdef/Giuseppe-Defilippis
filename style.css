@@ -16,6 +16,7 @@
 
 html{
     scroll-behavior: smooth;
+
     /* cursor: none; */
 }
 
@@ -214,7 +215,7 @@ z-index: 3;
 ul{
     list-style-type: none;
     
-
+padding-left: 0px;
 }
 
 .footer-totale {
@@ -287,13 +288,62 @@ ul{
     
 }
 
+.container-info {
+    padding-left: 2vw;
+}
 
 
+@media (max-width: 768px) {
+   html {
+    overflow-x: hidden;
+   }
+   .container-info {
+     padding-left: 5vw;
+    padding-right: 5vw;
+   
+   }
+   .container-foto {
+    padding-left: 5vw;
+   padding-right: 5vw;
+  
+  }
+  
+  .footer-totale {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  .navbar {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: #f7f7f7;
+  }
+
+  .video_homepage {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+
+  .presentation-text {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+
+  #projects {
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+}
+
+
+
+@media (min-width: 768px){
 
 .navbar {
     background-color: #f7f7f7;
     padding-right: 2vw;
     padding-left: 2vw;
+}
 }
 
 /* --------PROGETTI PAGINA--------*/
@@ -307,9 +357,3 @@ ul{
     margin-top: 60px;
 }
 
-@media (min-width: 768px) {
-    .text-justify-sm {
-        justify-content: left;
-    }
-  
-}
