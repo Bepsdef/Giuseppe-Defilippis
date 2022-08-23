@@ -4,15 +4,19 @@
   }
 
   @font-face {
-    font-family: suisse-works;
-    src: url(works/SuisseWorks-Regular.otf);
-  }
-  
-  @font-face {
     font-family: suisse-intl-medium;
     src: url(intl/SuisseIntl-Medium.otf);
   }
 
+  @font-face {
+    font-family: monument;
+    src: url(Monument\ Grotesk/MonumentGrotesk-Medium.otf);
+  }
+
+  @font-face {
+    font-family: raul;
+    src: url(raul.otf);
+  }
 
 html{
     scroll-behavior: smooth;
@@ -35,6 +39,26 @@ body {
     
 
 }
+
+button {
+background-color: lightgrey;
+  border: none;
+border-radius: 20px;
+padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+font-family: suisse-intl-medium;
+}
+
+
+button:hover {
+background-color: magenta;
+
+
+}
+
+
 
 p {
     font-family: suisse-intl;
@@ -371,4 +395,45 @@ padding-left: 0px;
     padding-top: 30px;
     padding-bottom: 30px;
     color: rgb(157, 157, 157);
+}
+
+
+
+
+
+
+
+#totaleditor {
+    background-color: black;
+    border-radius: 5px;
+  
+    height: 80vh;
+    padding: 40px;
+}
+
+.text-editor {
+    font-family:raul;
+    font-size: 100px;
+    color: white;
+ line-height:0.9em;
+   
+}
+
+.button-editor {
+    padding-bottom: 15px;
+}
+
+#btn1 {
+    margin-right: 15px;
+}
+
+#btn2 {
+    margin-right: 15px;
+}
+
+@media (max-width: 768px) {
+    .text-editor{
+        font-size: 50px;
+    
+    }
 }
