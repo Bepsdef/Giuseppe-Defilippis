@@ -43,6 +43,7 @@ body {
 button {
 background-color: lightgrey;
   border: none;
+  color: black;
 border-radius: 20px;
 padding: 5px 10px;
   text-align: center;
@@ -51,6 +52,13 @@ padding: 5px 10px;
 font-family: suisse-intl-medium;
 }
 
+a{
+    color: black;
+}
+
+a:hover {
+    color: black;
+}
 
 button:hover {
 background-color: magenta;
@@ -109,11 +117,11 @@ h1 {
     font-size: 24px;
 }
 
-a {
+/* a {
     font-family: suisse-intl;
     font-size: 14px;
     color: black;
-}
+} */
 
 img {
     border-radius: 6px;
