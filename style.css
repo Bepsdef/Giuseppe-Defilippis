@@ -267,12 +267,13 @@ padding-left: 0px;
     margin-top: 150px;
     padding: 0;
     height: 50px;
+    margin-bottom: 10px;
 }
 
 .footer-totale-about {
 margin-top: 50px;
     padding: 0;
-   
+    margin-bottom: 10px;
 }
 
 
@@ -375,11 +376,13 @@ margin-top: 50px;
   .footer-totale {
     padding-left: 5vw;
     padding-right: 5vw;
+    margin-bottom: 50px;
   }
 
   .footer-totale-about {
     padding-left: 5vw;
     padding-right: 5vw;
+    margin-bottom: 50px;
   }
 
 
