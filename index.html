@@ -21,6 +21,7 @@
 <script src="main.js"></script>
 
 
+
 <link rel="apple-touch-icon" sizes="180x180" href="/favicon_io/android-chrome-192x192.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon_io/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon_io/favicon-16x16.png">
@@ -31,6 +32,9 @@
 </head>
 <body>
 
+  <div id="loading-page">  
+   ciao
+ </div>
   
     <nav class="navbar pb-4 pt-4 fixed-top">
       <a href="index.html" class="brand">Giuseppe Defilippis</a>
@@ -557,6 +561,14 @@ data-aos-anchor-placement="top-bottom">
   AOS.init();
 </script>
 
+<script>
+
+var loader = document.getElementById("loading-page");
+window.addEventListener("load", function() {
+  loader.style.display = "none";
+})
+
+</script>
 
 
 </body>

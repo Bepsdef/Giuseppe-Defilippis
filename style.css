@@ -94,7 +94,9 @@ h2{
 }
 
 a:hover{
-    color: green;
+    color: magenta;
+    padding-top: 2px;
+  transition-duration: 0.2s;
     
 }
 
@@ -534,4 +536,14 @@ margin-top: 50px;
 
 .with-regular {
     font-family: suisse-intl;
+}
+
+.loading-page {
+    height: 100vh;
+    width: 100vw;
+    z-index: 790;
+    background-color:white;
+position:fixed;
+    margin: 0;
+    padding: 0;
 }
