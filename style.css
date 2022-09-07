@@ -133,6 +133,13 @@ h1 {
     font-size: 24px;
 }
 
+@media (max-width: 768px)  {
+    .mail-about{
+        font-size: 20px;
+    }
+}
+
+
 /* a {
     font-family: suisse-intl;
     font-size: 14px;
