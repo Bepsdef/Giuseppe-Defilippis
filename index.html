@@ -51,7 +51,7 @@
 </div>
 
 <p class="presentation-text text-attribute" data-aos="fade-up" 
-data-aos-anchor-placement="center-bottom">Giuseppe Defilippis is a graphic designer based in Milan. <br> He is focused on branding, motion, digital design. Take a look at <span> <a href="#projects" class="text-attribute"> <u> his projects</u>  <img src="arrow-down.png" alt="" width="30px"> </a> </span> </p>
+data-aos-anchor-placement="center-bottom">Hello! I am Giuseppe Defilippis a graphic designer based in <span id="sequence"></span> <br> I am focused on branding, motion, digital design. Take a look at <span> <a href="#projects" class="text-attribute"> <u> my projects</u>  <img src="arrow-down.png" alt="" width="30px"> </a> </span> </p>
 
 
 <section class="container-fluid" id="projects" >
@@ -568,6 +568,25 @@ window.addEventListener("load", function() {
   loader.style.display = "none";
 })
 
+</script>
+
+<script>
+  var example = ['Milan', 'Foggia', 'Turin', "Tomar" ,"Barcelona", "Nowhere"];
+
+  textSequence(0);
+  function textSequence(i) {
+
+      if (example.length > i) {
+          setTimeout(function() {
+              document.getElementById("sequence").innerHTML = example[i];
+              textSequence(++i);
+          }, 500); // 1 second (in milliseconds)
+
+      } else if (example.length == i) { // Loop
+          textSequence(0);
+      }
+
+  }
 </script>
 
 

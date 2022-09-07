@@ -95,8 +95,7 @@ h2{
 
 a:hover{
     color: magenta;
-    padding-top: 2px;
-  transition-duration: 0.2s;
+
     
 }
 
@@ -547,3 +546,4 @@ position:fixed;
     margin: 0;
     padding: 0;
 }
+
