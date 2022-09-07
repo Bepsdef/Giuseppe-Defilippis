@@ -34,7 +34,7 @@ html{
 body {
     margin-left: 2vw;
     margin-right: 2vw;
-    font-family: suisse-intl;
+    font-family: suisse-intl-medium;
     font-size: 14px;
     color: black;
     background-color: white;
@@ -523,3 +523,15 @@ margin-top: 50px;
    padding-top: 160px;
 }
 
+
+.nome-footer {
+    font-family: suisse-intl-medium;
+}
+
+.contact-footer{
+    font-family: suisse-intl-medium;
+}
+
+.with-regular {
+    font-family: suisse-intl;
+}
