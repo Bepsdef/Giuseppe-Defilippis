@@ -29,6 +29,9 @@ html{
     /* cursor: none; */
 }
 
+.underlined{
+    text-decoration:underline;
+}
 
 
 ::selection {
@@ -248,6 +251,7 @@ z-index: 3;
 
 video {
     border-radius: 5px;
+    border: 0px;
 }
 
 
@@ -433,8 +437,6 @@ margin-top: 50px;
     padding-right: 5vw;
     background-color: white;
   }
-
-
 
 
 
@@ -665,6 +667,7 @@ position:fixed;
 .gallery-page {
   overflow: hidden;
 
+
 }
 
 
@@ -673,59 +676,65 @@ position:fixed;
     height: 100%;
     padding-left: 5vw;
     padding-right: 5vw;
+    
 
   }
   
+
   @media (min-width: 768px){
     #left {
       position: absolute;
       top: 0px;
       bottom: 0;
       left: 0;
+      width: 33%;
       overflow-y: scroll; 
-      z-index: 200;
     }
   
-
-
-
-
     #middle {
       position: absolute;
       top: 0px;
       bottom: 0;
-      left: 33%;
-    border-left: 1px solid black;
+      left: 33.5%;
+      width: 33%;
       overflow-y: scroll; 
     }
     
     #right {
       position: absolute;
-      top: 0px;
+      top: 0;
       bottom: 0;
       right: 0;
       overflow-y: scroll;
-      border-left: 1px solid black;
-     
-
+      width: 33%;
+      
     }
   }
+
+
+
+
+
+
+
   
   #left {
-height: 100vh;
+    height: 100%;
+
 padding-left: 2vw;
   
   }
   
   #middle{
-height: 100vh;
-align-items: center;
+    height: 100%;
+
+
 
   
   }
   
   #right {
-    height:100vh;
+    height: 100%;
     padding-right: 2vw;
    
  
@@ -736,6 +745,7 @@ align-items: center;
   
   .text-gallery{
     padding-top: 10vh;
+
   }
 
   .text-gallery p{
@@ -750,13 +760,27 @@ font-family:monumentreg ;
     line-height: 1.0;
     font-family:monumentreg ;
 
+
+}
+
+.img-gallery-racconto {
+
+    padding-top: 2vh;
+    padding-bottom: 3vh;
 }
 
 
+
 .img-gallery-alone {
-    width: 20vw;
+
     padding-top: 10vh;
     padding-bottom: 10vh;
+}
+
+.img-gallery-alone-first {
+
+    padding-top: 1vh;
+    padding-bottom: 4vh;
 }
 
 .img-gallery-alone p{
@@ -765,6 +789,14 @@ font-family:monumentreg ;
     font-family:monumentreg ;
     padding-top: 1vh;
 }
+
+.img-gallery-alone-first p{
+    font-size: 15px;
+    line-height: 1.1;
+    font-family:monumentreg ;
+    padding-top: 1vh;
+}
+
 
 
 
