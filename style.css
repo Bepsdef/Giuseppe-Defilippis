@@ -91,13 +91,13 @@ h2{
 
 
 .presentation-text {
- margin-top: 50px;
+ margin-top: 100px;
     margin-bottom: 200px;
 }
 
 .text-attribute{
     font-family: suisse-intl;
-    font-size: 32px;
+    font-size: 35px;
     line-height: 1.2;
 }
 
@@ -202,6 +202,8 @@ a:active { text-decoration: none; }
 padding: 0;
     margin-top: 40px;
 }
+
+
 
 .material-icons {
     font-family: 'Material Icons';
@@ -748,6 +750,12 @@ padding-left: 2vw;
 
   }
 
+  .article-gallery img:hover {
+
+    filter: grayscale();
+
+  }
+
   .text-gallery p{
    
     font-size: 18px;
@@ -761,6 +769,16 @@ font-family:monumentreg ;
     font-family:monumentreg ;
 
 
+}
+
+.title-gallery{
+    padding-top: 20px;
+    margin: 0;
+}
+
+
+.subtitle-gallery{
+padding-top: 0;
 }
 
 .img-gallery-racconto {
@@ -814,4 +832,16 @@ font-family:monumentreg ;
  }
 }
 
+
+.container{
+    overflow: hidden;
+}
+
+.filterDiv {
+    display: none;
+}
+
+.show {
+    display: block;
+  }
 
