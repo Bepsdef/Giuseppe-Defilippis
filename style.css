@@ -343,6 +343,8 @@ margin-top: 50px;
 
 
 
+
+
 /* MEDIA QUERY PER FOOTER ||||||||||| Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
     .text-justify-sm {
@@ -748,6 +750,7 @@ padding-left: 2vw;
   .text-gallery{
     padding-top: 10vh;
 
+
   }
 
   .article-gallery img:hover {
@@ -755,6 +758,7 @@ padding-left: 2vw;
     filter: grayscale();
 
   }
+
 
   .text-gallery p{
    
